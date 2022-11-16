@@ -19,10 +19,15 @@
 
 Tables:
 <zillow_transactions>
+
 id                  int
+
 state               varchar
+
 city                varchar
+
 street_address      varchar
+
 mkt_price           int
 
 ```sql
@@ -40,7 +45,9 @@ having avg(mkt_price) >
 **Schema**
 
 fb_eu_energy, fb_asia_energy, fb_na_energy
+
 date            datetime
+
 consumption     int
 
 
